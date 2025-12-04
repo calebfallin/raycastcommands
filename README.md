@@ -43,3 +43,4 @@ chmod +x *.sh
    - Go to Extensions → Script Commands
    - Click the + button and add this directory
 
+# raycastcommands
