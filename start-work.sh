@@ -10,22 +10,23 @@
 # @raycast.packageName Work Setup
 
 # Documentation:
-# @raycast.description Opens Todoist, Slack, and Chrome with work profile (Gmail, Calendar, Drive)
+# @raycast.description Opens Todoist, Claude, Spark Mail, and Chrome with Tyfone profile (Retool workspace)
 # @raycast.author Caleb Fallin
 
 # Open Todoist
 open -a "Todoist"
 
-# Open Slack
-open -a "Slack"
+# Open Claude
+open -a "Claude"
 
-# Launch Chrome with Profile 7 (Work) and open work tabs
+# Open Spark
+open -a "Spark"
+
+# Launch Chrome with Tyfone profile and open Retool workspace
 "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" \
   --profile-directory="Profile 7" \
-  "https://mail.google.com" \
-  "https://calendar.google.com/calendar/u/0/r/week" \
-  "https://drive.google.com/drive/u/0/my-drive" \
+  "https://calebfallin.retool.com/apps/465eb220-0469-11f1-b9a6-638c09f8a567/Workspace/Home" \
   > /dev/null 2>&1 &
 
-echo "✅ Started work environment: Todoist, Slack, and Chrome with work profile"
+echo "✅ Started work environment: Todoist, Claude, Spark, and Chrome with Tyfone profile"
 
