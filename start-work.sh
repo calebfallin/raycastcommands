@@ -25,10 +25,11 @@ sleep 2
 open -a "Spark Desktop"
 sleep 6
 
-# Launch Chrome with Tyfone profile and open Retool workspace
+# Launch Chrome with Tyfone profile and open Retool workspace and Salesforce
 "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" \
   --profile-directory="Profile 7" \
   "https://calebfallin.retool.com/apps/465eb220-0469-11f1-b9a6-638c09f8a567/Workspace/Home" \
+  "https://redshoecrewtyfone.lightning.force.com/lightning/page/home" \
   > /dev/null 2>&1 &
 sleep 3
 
