@@ -27,7 +27,7 @@ sleep 6
 
 # Launch Chrome with freelance profile and open Retool workspace
 "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" \
-  --profile-directory="Profile 5" \
+  --profile-directory="Profile 11" \
   "https://calebfallin.retool.com/apps/465eb220-0469-11f1-b9a6-638c09f8a567/Workspace/Home" \
   > /dev/null 2>&1 &
 sleep 3

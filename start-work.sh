@@ -30,6 +30,7 @@ sleep 6
   --profile-directory="Profile 7" \
   "https://calebfallin.retool.com/apps/465eb220-0469-11f1-b9a6-638c09f8a567/Workspace/Home" \
   "https://redshoecrewtyfone.lightning.force.com/lightning/page/home" \
+  "https://drive.google.com/drive/u/0/my-drive" \ 
   > /dev/null 2>&1 &
 sleep 3
 
